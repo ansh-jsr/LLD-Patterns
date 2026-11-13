@@ -1,47 +1,59 @@
-Behavioral Design Patterns
-This directory contains Java implementations of Behavioral Design Patterns, which focus on how objects communicate, interact, and distribute responsibilities within a software system.
+# Structural Design Patterns
 
-These patterns help achieve loose coupling, flexibility, and maintainable code by defining clear communication mechanisms between objects.
+This directory contains Java implementations of **Structural Design Patterns**, which focus on how classes and objects are composed to form larger, more flexible, and maintainable software structures.
 
-Patterns Covered
-Design Pattern	Description	Status
-Strategy	Defines a family of interchangeable algorithms and encapsulates each one independently.	In Progress
-Observer	Establishes a one-to-many dependency so that changes in one object notify its dependents.	Planned
-Command	Encapsulates a request as an object, allowing requests to be parameterized and executed independently.	Planned
-State	Allows an object to change its behavior when its internal state changes.	Planned
-Template Method	Defines the skeleton of an algorithm while allowing subclasses to customize certain steps.	Planned
-Iterator	Provides a way to access elements of a collection sequentially without exposing its internal representation.	Planned
-Chain of Responsibility	Passes a request through a chain of handlers until one handles it.	Planned
-Repository Structure
-behavioral-dp/
+These patterns help simplify relationships between objects, improve code reusability, and ensure that different components can work together without unnecessary dependencies.
+
+## Patterns Covered
+
+| **Design Pattern** | **Description** | **Status** |
+| ------------------ | --------------- | ---------- |
+| Adapter | Allows incompatible interfaces to work together by converting one interface into another expected by the client. | In Progress |
+| Bridge | Separates an abstraction from its implementation so that both can evolve independently. | Planned |
+| Composite | Composes objects into tree-like structures to represent part-whole hierarchies and treat individual objects and groups uniformly. | Planned |
+| Decorator | Dynamically adds additional responsibilities to an object without modifying its existing class. | Planned |
+| Facade | Provides a simplified interface to a complex subsystem, hiding its internal complexity. | Planned |
+| Flyweight | Reduces memory usage by sharing common object data among multiple objects. | Planned |
+| Proxy | Provides a substitute or placeholder for another object to control access to it. | Planned |
+
+## Repository Structure
+```text
+structural-dp/
 │
 ├── README.md
 │
-├── strategy/
+├── adapter/
 │   ├── README.md
-│   ├── notification-example/
-│   └── robot-example/
+│   └── examples/
 │
-├── observer/
-├── command/
-├── state/
-├── template-method/
-├── iterator/
-└── chain-of-responsibility/
-Implementation Approach
+├── bridge/
+├── composite/
+├── decorator/
+├── facade/
+├── flyweight/
+└── proxy/
+```
+
+## Implementation Approach
+
 Each design pattern is explored through practical, independent examples.
 
 For every pattern, the documentation aims to cover:
 
-Core concept and intent.
-Problem it solves.
-Design and class responsibilities.
-UML class diagram.
-Java implementation through real-world examples.
-Advantages and limitations.
-Appropriate use cases.
-Technology
-Language: Java
-IDE: IntelliJ IDEA
-Version Control: Git and GitHub
-This repository is part of my ongoing journey to understand Low-Level Design, object-oriented programming, and software design principles through practical implementation.
+- Core concept and intent.
+- Problem it solves.
+- Design and class responsibilities.
+- UML class diagram.
+- Java implementation through real-world examples.
+- Advantages and limitations.
+- Appropriate use cases.
+
+## Technology
+
+- **Language:** Java
+- **IDE:** IntelliJ IDEA
+- **Version Control:** Git and GitHub
+
+---
+
+*This repository is part of my ongoing journey to understand Low-Level Design, object-oriented programming, and software design principles through practical implementation.*
