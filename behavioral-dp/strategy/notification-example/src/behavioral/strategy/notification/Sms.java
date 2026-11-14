@@ -1,4 +1,6 @@
-public class Sms extends Notification {
+package behavioral.strategy.notification;
+
+public class Sms extends StrategyNotification {
     public Sms(EncryptionStrategy encryptionStrategy, CompressionStrategy compressionStrategy) {
         super(encryptionStrategy, compressionStrategy);
     }

@@ -1,4 +1,6 @@
-public class Push extends Notification{
+package behavioral.strategy.notification;
+
+public class Push extends StrategyNotification {
     public Push(EncryptionStrategy encryptionStrategy, CompressionStrategy compressionStrategy) {
         super(encryptionStrategy, compressionStrategy);
     }

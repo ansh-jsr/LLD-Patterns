@@ -9,8 +9,9 @@ These patterns help manage object creation mechanisms, reduce tight coupling bet
 | **Design Pattern** | **Description** | **Status** |
 | ------------------- | --------------- | ---------- |
 | Singleton | Ensures that a class has only one instance and provides a global access point to it. | Planned |
-| Factory Method | Defines an interface for creating objects while allowing subclasses to decide which class to instantiate. | Planned |
-| Abstract Factory | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. | Planned |
+| Simple Factory | Encapsulates object creation logic in a separate factory class, centralizing the instantiation of objects based on given conditions. | Completed |
+| Factory Method | Defines an interface for creating objects while allowing subclasses to decide which class to instantiate. | Completed |
+| Abstract Factory | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. | Completed |
 | Builder | Separates the construction of a complex object from its representation, allowing the same construction process to create different representations. | Planned |
 | Prototype | Creates new objects by copying existing instances rather than creating them from scratch. | Planned |
 
@@ -22,8 +23,12 @@ creational-dp/
 ├── README.md
 │
 ├── singleton/
-├── factory-method/
-├── abstract-factory/
+│
+├── factory/
+│   ├── simple-factory/
+│   ├── factory-method/
+│   └── abstract-factory/
+│
 ├── builder/
 └── prototype/
 ```

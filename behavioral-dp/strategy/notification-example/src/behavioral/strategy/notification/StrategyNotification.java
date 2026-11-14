@@ -1,8 +1,10 @@
-public abstract class Notification {
+package behavioral.strategy.notification;
+
+public abstract class StrategyNotification {
     CompressionStrategy compressionStrategy;
     EncryptionStrategy encryptionStrategy;
 
-    public Notification(EncryptionStrategy encryptionStrategy, CompressionStrategy compressionStrategy) {
+    public StrategyNotification(EncryptionStrategy encryptionStrategy, CompressionStrategy compressionStrategy) {
         this.compressionStrategy = compressionStrategy;
         this.encryptionStrategy = encryptionStrategy;
     }
