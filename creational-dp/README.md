@@ -8,7 +8,7 @@ These patterns help manage object creation mechanisms, reduce tight coupling bet
 
 | **Design Pattern** | **Description** | **Status** |
 | ------------------- | --------------- | ---------- |
-| Singleton | Ensures that a class has only one instance and provides a global access point to it. | Planned |
+| Singleton | Ensures that a class has only one instance and provides a global access point to it. | Completed |
 | Simple Factory | Encapsulates object creation logic in a separate factory class, centralizing the instantiation of objects based on given conditions. | Completed |
 | Factory Method | Defines an interface for creating objects while allowing subclasses to decide which class to instantiate. | Completed |
 | Abstract Factory | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. | Completed |
